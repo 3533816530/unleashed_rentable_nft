@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.4.22 <0.9.0;
+// https://eips.ethereum.org/EIPS/eip-4907
 
 import "./ERC4907.sol"; // RentablePets.sol <= ERC4907.sol <= IERC4907.sol
 import "@openzeppelin/contracts/utils/Counters.sol";
