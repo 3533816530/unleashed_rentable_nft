@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.4.22 <0.9.0;
 
-import "./ERC4907.sol";
+import "./ERC4907.sol"; // RentablePets.sol <= ERC4907.sol <= IERC4907.sol
 import "@openzeppelin/contracts/utils/Counters.sol";
 
 contract RentablePets is ERC4907 {
