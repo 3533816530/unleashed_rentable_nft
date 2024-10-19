@@ -17,3 +17,4 @@ const main = async (cb) => {
   }
   
 module.exports = main;
+// truffle exec scripts/mint.js --from <你的账户地址>
