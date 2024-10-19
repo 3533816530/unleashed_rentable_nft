@@ -11,7 +11,7 @@ const main = async (cb) => {
     } catch(err) {
         console.log(err);
     }
-    cb();
+    cb(); // cb 是一个回调函数，用于在脚本执行完成后通知 Truffle 该任务已经结束
   }
   
 module.exports = main;
